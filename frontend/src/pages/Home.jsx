@@ -16,7 +16,7 @@ export default function Home() {
       const data = await getEvents();
       setEvents(data);
     } catch (err) {
-      setError('Failed to load events. Please make sure the backend is running.');
+      setError('Failed to load events. Backend is hosted on Render and may be sleeping. Please wait for a min and refresh the page ');
     } finally {
       setLoading(false);
     }
