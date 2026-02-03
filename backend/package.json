@@ -1,0 +1,27 @@
+{
+  "name": "seat-booking-system",
+  "version": "1.0.0",
+  "description": "Production-grade concurrent seat booking API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node seed.js",
+    "test": "node test-concurrent.js"
+  },
+  "keywords": [
+    "booking",
+    "concurrency",
+    "postgresql",
+    "transactions"
+  ],
+  "author": "Akash Kalyan",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "pg": "^8.16.3"
+  }
+}
