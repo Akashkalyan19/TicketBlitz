@@ -44,8 +44,7 @@ export default function Home() {
           ></div>
           <p className="text-slate-400">Loading events...</p>
           <p>
-            Backend is hosted on Render and may be sleeping. Please wait for a
-            min and refresh the page
+            Backend is hosted on Render and may be sleeping. Please wait a min .
           </p>
         </div>
       </div>
